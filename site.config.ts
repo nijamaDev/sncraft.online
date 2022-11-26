@@ -4,7 +4,7 @@ export default siteConfig({
   /* (required)
     The site's root Notion page
   */
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: 'b30ef4d59c044d61be6d95f763aea959',
 
   /* (optional)
     if you want to restrict pages to a single notion workspace
@@ -15,21 +15,21 @@ export default siteConfig({
   /* (required)
     Basic site info
   */
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Shingeki no Craft Official Site & Wiki',
+  domain: 'sncraft.fanfus.com',
+  author: 'Fanfus team',
 
   /* (optional)
     Open graph metadata
   */
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Shingeki no Craft Official Site.',
 
   /* (optional)
     Social usernames
   */
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'nijamaDev',
+  github: 'nijamaDev',
+  linkedin: 'nijamaDev',
   // discord: 'My Server',  /* Server Name */
   // discord_invite: 'https://discord.gg/zf6g5KQ6H4', /* Discord invite link */
   // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
