@@ -5,7 +5,6 @@ export default siteConfig({
     The site's root Notion page
   */
   rootNotionPageId: 'f9b740741d2c4e4bbc837800cc3a81b3',
-  // rootNotionPageId: '5949ed11bc46434a95fa612339ea5a37',
 
   /* (optional)
     if you want to restrict pages to a single notion workspace
