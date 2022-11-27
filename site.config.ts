@@ -73,16 +73,36 @@ export default siteConfig({
     or a custom one with links to important pages.
     To use `navigationLinks`, set `navigationStyle` to `custom`.
   */
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     url: 'https://twitter.com/transitive_bs'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Download',
+      url: 'https://www.planetminecraft.com/data-pack/attack-on-titan-datapack-1-16-download'
+    },
+    {
+      title: 'Get Started',
+      pageId: '606e973b50894bfeb44a9da19033133e'
+    },
+    {
+      title: 'Wiki',
+      pageId: '03427235b5bc4055aefb5347895e562b'
+    },
+    {
+      title: 'FAQ',
+      pageId: 'd1becce18ab24a59b020cd780f5634ff'
+    },
+    {
+      title: 'Discord',
+      url: 'https://discord.gg/zf6g5KQ6H4'
+    },
+    {
+      title: 'About us',
+      pageId: 'da705a355d6f49c18078b6cd948bce4e'
+    },
+    {
+      title: 'Support us',
+      url: 'https://www.patreon.com/Fanfo'
+    }
+  ]
 })
