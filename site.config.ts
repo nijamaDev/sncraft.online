@@ -21,9 +21,8 @@ export default siteConfig({
   github: 'nijamaDev',
   linkedin: 'nijamaDev',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-
+  newsletter: '#', // optional newsletter URL
+  youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
@@ -50,16 +49,36 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Download',
+      url: 'https://www.planetminecraft.com/data-pack/attack-on-titan-datapack-1-16-download'
+    },
+    {
+      title: 'Get Started',
+      pageId: '48d717b38f314885b6ed2b38a9582935'
+    },
+    {
+      title: 'Wiki',
+      pageId: '1b9effc9c7c841e5870f69e5c78b84e9'
+    },
+    {
+      title: 'FAQ',
+      pageId: '787b355a9dbd4bd2a3e3caa05d309999'
+    },
+    {
+      title: 'Discord',
+      url: 'https://discord.gg/zf6g5KQ6H4'
+    },
+    {
+      title: 'About us',
+      pageId: '50a460095a4e47d68d0b3226aee2cea1'
+    },
+    {
+      title: 'Support us',
+      url: 'https://www.patreon.com/Fanfo'
+    }
+  ]
 })
