@@ -22,19 +22,21 @@ export default siteConfig({
   /* (optional)
     Open graph metadata
   */
-  description: 'Shingeki no Craft Official Site.',
+  description: '\
+Shingeki no Craft Wiki.\n\
+Shingeki no Craft Official Site.\n\
+Shingeki no Craft: An Attack on Titan Minecraft Datapack.\n\
+Sncraft',
 
   /* (optional)
     Social usernames
   */
-  twitter: 'nijamaDev',
-  github: 'nijamaDev',
-  linkedin: 'nijamaDev',
-  // discord: 'My Server',  /* Server Name */
-  // discord_invite: 'https://discord.gg/zf6g5KQ6H4', /* Discord invite link */
+  twitter: 'FanfoArts',
+  // github: 'nijamaDev',
+  // linkedin: 'nijamaDev',
   // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
   // newsletter: '#', /* Optional newsletter URL */
-  // youtube: '#', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
+  youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
 
   /* (optional)
     Default notion icon and cover images for site-wide consistency.
@@ -51,7 +53,7 @@ export default siteConfig({
 
   /* (optional)
     Whether or not redis is enabled for caching generated preview images.
-    NOTE: if you enable redis, you need to set the `REDIS_HOST` 
+    NOTE: If you enable redis, you need to set the `REDIS_HOST` 
     and `REDIS_PASSWORD` environment variables.
     See the readme for more info.
   */
