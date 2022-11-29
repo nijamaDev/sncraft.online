@@ -1,54 +1,77 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // the site's root Notion page (required)
+  /* (required)
+    The site's root Notion page
+  */
   rootNotionPageId: 'b30ef4d59c044d61be6d95f763aea959',
 
-  // if you want to restrict pages to a single notion workspace (optional)
-  // (this should be a Notion ID; see the docs for how to extract this)
+  /* (optional)
+    if you want to restrict pages to a single notion workspace
+    (this should be a Notion ID; see the docs for how to extract this) 
+  */
   rootNotionSpaceId: null,
 
-  // basic site info (required)
+  /* (required)
+    Basic site info
+  */
   name: 'Shingeki no Craft Official Site & Wiki',
   domain: 'sncraft.online',
-  author: 'Fanfo, Nijama & Zabat',
+  author: 'Fanfo, nijama & Zabat',
 
-  // open graph metadata (optional)
-  description: 'Shingeki no Craft Official Site.',
+  /* (optional)
+    Open graph metadata
+  */
+  description: '\
+Shingeki no Craft Wiki.\n\
+Shingeki no Craft Official Site.\n\
+Shingeki no Craft: An Attack on Titan Minecraft Datapack.\n\
+Sncraft',
 
-  // social usernames (optional)
-  twitter: 'nijamaDev',
-  github: 'nijamaDev',
-  linkedin: 'nijamaDev',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  newsletter: '#', // optional newsletter URL
-  youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-  // default notion icon and cover images for site-wide consistency (optional)
-  // page-specific values will override these site-wide defaults
+  /* (optional)
+    Social usernames
+  */
+  twitter: 'FanfoArts',
+  // github: 'nijamaDev',
+  // linkedin: 'nijamaDev',
+  // mastodon: '#', /* Optional mastodon profile URL, provides link verification */
+  // newsletter: '#', /* Optional newsletter URL */
+  youtube: '@FanfoYT', /* Optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX` */
+
+  /* (optional)
+    Default notion icon and cover images for site-wide consistency.
+    Page-specific values will override these site-wide defaults.
+  */
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
-  // whether or not to enable support for LQIP preview images (optional)
+  /* (optional)
+    whether or not to enable support for LQIP preview images.
+  */
   isPreviewImageSupportEnabled: true,
 
-  // whether or not redis is enabled for caching generated preview images (optional)
-  // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
-  // environment variables. see the readme for more info
+  /* (optional)
+    Whether or not redis is enabled for caching generated preview images.
+    NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD` environment variables.
+    See the readme for more info.
+  */
   isRedisEnabled: false,
 
-  // map of notion page IDs to URL paths (optional)
-  // any pages defined here will override their default URL paths
-  // example:
-  //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
+  /* (optional)
+    Map of notion page IDs to URL paths.
+    Any pages defined here will override their default URL paths.
+    Example:
+    
+    pageUrlOverrides: {
+      '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+      '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+    } 
+  */
   pageUrlOverrides: null,
-
-  // whether to use the default notion navigation style or a custom one with links to
-  // important pages
+  /* 
+    whether to use the default notion navigation style or a custom one with links to important pages
+  */
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
