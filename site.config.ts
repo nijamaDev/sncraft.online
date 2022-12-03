@@ -87,8 +87,8 @@ Sncraft',
       pageId: '03427235b5bc4055aefb5347895e562b'
     },
     {
-      title: 'Download',
-      url: 'https://www.planetminecraft.com/data-pack/attack-on-titan-datapack-1-16-download'
+      title: 'Downloads',
+      pageId: 'be1d52e8e7c7458a85358eadbf3c3c67'
     },
     /* {
       title: 'FAQ',
