@@ -10,7 +10,7 @@ import
   FaDiscord,
   FaYoutube,
   FaTwitter,
-  FaMastodon,
+  //FaMastodon,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
