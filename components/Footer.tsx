@@ -1,6 +1,12 @@
 import * as React from 'react'
 
-import 
+import /* Ionicons 5 */
+{ 
+  IoMoonSharp,
+  IoSunnyOutline
+} from 'react-icons/io5'
+
+import /* Font Awesome */
 { 
   FaDiscord,
   FaYoutube,
@@ -11,8 +17,6 @@ import
   FaZhihu,
   FaEnvelopeOpenText
 } from "react-icons/fa";
-import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
-import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 
 import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
