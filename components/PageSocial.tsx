@@ -34,28 +34,36 @@ const socialLinks: SocialLink[] = [
     name: 'discord',
     href: `${config.discord_invite}`, // Invite URL of the Discord server
     title: `${config.discord} on Discord`, // Name of the Discord server
-    icon: (<FaDiscord />)
+    icon: (
+      <FaDiscord />
+    )
   },
 
   config.youtube && {
     name: 'youtube',
     href: `https://www.youtube.com/${config.youtube}`,
     title: `YouTube ${config.youtube}`,
-    icon: (<FaYoutube />)
+    icon: (
+      <FaYoutube />
+    )
   },
 
   config.twitter && {
     name: 'twitter',
     href: `https://twitter.com/${config.twitter}`,
     title: `Twitter @${config.twitter}`,
-    icon: (<FaTwitter />)
+    icon: (
+      <FaTwitter />
+    )
   },
 
   config.github && {
     name: 'github',
     href: `https://github.com/${config.github}`,
     title: `GitHub @${config.github}`,
-    icon: (<FaGithub />)
+    icon: (
+      <FaGithub />
+    )
   },
 
   config.linkedin && {
