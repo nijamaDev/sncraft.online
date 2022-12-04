@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import 
 { 
+  FaDiscord,
   FaYoutube,
   FaTwitter,
   FaMastodon,
@@ -55,6 +56,17 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.social}>
+        {config.discord_invite && (
+          <a
+            className={styles.discord}
+            href={`${config.discord_invite}`}
+            title={`${config.discord} on Discord`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaDiscord />
+          </a>
+        )}
         {config.twitter && (
           <a
             className={styles.twitter}
