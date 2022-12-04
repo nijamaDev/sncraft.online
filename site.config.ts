@@ -31,6 +31,8 @@ Sncraft',
   /* (optional)
     Social usernames
   */
+  discord: 'Shingeki no Craft Official Server',
+  discord_invite: 'https://discord.gg/zf6g5KQ6H4',
   twitter: 'FanfoArts',
   // github: 'nijamaDev',
   // linkedin: 'nijamaDev',
