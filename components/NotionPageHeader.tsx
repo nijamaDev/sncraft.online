@@ -53,10 +53,6 @@ export const NotionPageHeader: React.FC<{
         <div className='notion-nav-header-rhs breadcrumbs'>
           {navigationLinks
             ?.map((link, index) => {
-              if (!link.pageId && !link.url) {
-                return null
-              }
-
               if (link.pageId) {
                 return (
                   <components.PageLink
@@ -67,7 +63,8 @@ export const NotionPageHeader: React.FC<{
                     {link.title}
                   </components.PageLink>
                 )
-              } else {
+              } 
+              if (link.url) {
                 return (
                   <components.Link
                     href={link.url}
@@ -78,6 +75,7 @@ export const NotionPageHeader: React.FC<{
                   </components.Link>
                 )
               }
+              return null
             })
             .filter(Boolean)}
 
