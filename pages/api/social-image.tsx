@@ -45,7 +45,7 @@ export default async function OGImage(req: NextRequest) {
 
   return new ImageResponse(
     (
-      <div
+      <div // Main div Container
         style={{
           position: 'relative',
           width: '100%',
@@ -60,7 +60,7 @@ export default async function OGImage(req: NextRequest) {
         }}
       >
         {pageInfo.image && (
-          <img
+          <img // Background image
             src={pageInfo.image}
             style={{
               position: 'absolute',
@@ -84,7 +84,7 @@ export default async function OGImage(req: NextRequest) {
           />
         )}
 
-        <div
+        <div // Div for the plain background and text
           style={{
             position: 'relative',
             width: 900,
@@ -96,7 +96,7 @@ export default async function OGImage(req: NextRequest) {
             zIndex: '1'
           }}
         >
-          <div
+          <div // Text Background
             style={{
               width: '100%',
               height: '100%',
@@ -113,7 +113,7 @@ export default async function OGImage(req: NextRequest) {
               <div style={{ fontSize: 32, opacity: 0 }}>{pageInfo.detail}</div>
             )}
 
-            <div
+            <div // Page Title div
               style={{
                 fontSize: 70,
                 fontWeight: 700,
