@@ -28,9 +28,6 @@ import {
   posthogId
 } from '@/lib/config'
 
-// vercel analytics
-import { Analytics } from '@vercel/analytics/react';
-
 if (!isServer) {
   bootstrap()
 }
@@ -67,7 +64,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
   <>
   <Component {...pageProps} />
-  <Analytics />
   </>
   );
 }

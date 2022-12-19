@@ -4,6 +4,9 @@ import { NotionPage } from '@/components/NotionPage'
 import { domain } from '@/lib/config'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 
+// vercel analytics
+import { Analytics } from '@vercel/analytics/react';
+
 export const getStaticProps = async () => {
   try {
     const props = await resolveNotionPage(domain)
@@ -19,5 +22,10 @@ export const getStaticProps = async () => {
 }
 
 export default function NotionDomainPage(props) {
-  return <NotionPage {...props} />
+  return (
+    <>
+      <NotionPage {...props} />
+      <Analytics />
+    </>
+  )
 }
