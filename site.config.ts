@@ -61,7 +61,7 @@ Sncraft',
     and `REDIS_PASSWORD` environment variables.
     See the readme for more info.
   */
-  isRedisEnabled: false,
+  isRedisEnabled: true,
 
   /* (optional)
     Map of notion page IDs to URL paths.
