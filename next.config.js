@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
   images: {
-    unoptimized: false,
+    unoptimized: true,
     domains: [
       'www.notion.so',
       'notion.so',
