@@ -53,7 +53,7 @@ Sncraft',
   /* (optional)
     Whether or not to enable support for LQIP preview images.
   */
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   /* (optional)
     Whether or not redis is enabled for caching generated preview images.
@@ -61,7 +61,7 @@ Sncraft',
     and `REDIS_PASSWORD` environment variables.
     See the readme for more info.
   */
-  isRedisEnabled: false,
+  isRedisEnabled: true,
 
   /* (optional)
     Map of notion page IDs to URL paths.
