@@ -23,9 +23,8 @@ export default siteConfig({
     Open graph metadata
   */
   description: '\
-Shingeki no Craft Wiki.\n\
-Shingeki no Craft Official Site.\n\
-Shingeki no Craft: An Attack on Titan Minecraft Datapack.\n\
+Shingeki no Craft Official Site and Wiki.\n\
+An Attack on Titan Minecraft Datapack.\n\
 Sncraft',
 
   /* (optional)
