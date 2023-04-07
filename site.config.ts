@@ -39,7 +39,7 @@ Sncraft',
   // linkedin: 'nijamaDev',
   // newsletter: '#', /* Optional newsletter URL */
   curseforge: 'https://www.curseforge.com/minecraft/customization/shingeki-no-craft',
-  planetminecraft: 'https://www.planetminecraft.com/data-pack/attack-on-titan-datapack-1-16-download',
+  planetminecraft: 'https://www.planetminecraft.com/data-pack/shingeki-no-craft-2/',
 
   /* (optional)
     Default notion icon and cover images for site-wide consistency.
