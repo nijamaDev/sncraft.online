@@ -90,7 +90,7 @@ Sncraft by Fanfo',
       pageId: '03427235b5bc4055aefb5347895e562b'
     },
     {
-      title: 'Downloads',
+      title: 'Download',
       pageId: '51c9a58fa9eb427fa8e703c0fb6fa362'
     },
     /* {
