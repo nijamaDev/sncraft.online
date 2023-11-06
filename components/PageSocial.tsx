@@ -16,6 +16,7 @@ import
 } from "react-icons/fa";
 import 
 { /* Simple Icons */
+  SiModrinth,
   SiCurseforge,
 } from "react-icons/si";
 /* import 
@@ -71,6 +72,13 @@ const socialLinks: SocialLink[] = [
     href: `https://www.linkedin.com/in/${config.linkedin}`,
     title: `LinkedIn ${config.author}`,
     icon: (<FaLinkedin />)
+  },
+
+  config.modrinth && {
+    name: 'modrinth',
+    href: `${config.modrinth}`,
+    title: `Shingeki no Craft on Modrinth`,
+    icon: (<SiModrinth />)
   },
 
   config.curseforge && {
