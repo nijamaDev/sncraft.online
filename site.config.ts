@@ -17,7 +17,7 @@ export default siteConfig({
   */
   name: 'Shingeki no Craft Official Site & Wiki',
   domain: 'sncraft.fanfus.com',
-  author: 'Fanfus team',
+  author: 'Fanfus Projects',
 
   /* (optional)
     Open graph metadata
@@ -25,7 +25,7 @@ export default siteConfig({
   description: '\
 Shingeki no Craft Official Site and Wiki.\n\
 An Attack on Titan Minecraft Datapack.\n\
-Sncraft by Fanfo',
+Sncraft by Fanfus Projects',
 
   /* (optional)
     Social usernames
