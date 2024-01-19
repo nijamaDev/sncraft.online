@@ -70,6 +70,7 @@ Sncraft by Fanfus Projects',
   */
   pageUrlOverrides: {
     '/149719398400': 'f93cee3b32b440068d3d1059a351a9f3',
+    '/did-you-know': '13e6ae6a2e1f476d8a2b3a5a5346a4e4',
     // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   },
   // pageUrlOverrides: null,
