@@ -9,6 +9,22 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function () {
+                    window.counterscale = {
+                      q: [["set", "siteId", "sncraft.fanfus.com"], ["trackPageview"]],
+                    };
+                  })();
+                `
+              }}
+            />
+            <script
+              id="counterscale-script"
+              src="https://counterscale.nijama.workers.dev/tracker.js"
+              defer
+            />
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
